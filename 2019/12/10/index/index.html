@@ -8,15 +8,15 @@
   <link rel="dns-prefetch" href="https://weixiao0920.github.io">
   <title>sort-function | weixiao blogs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="c++sort函数的使用总结sort类函数：函数名    功能描述sort    对给定区间所有元素进行排序stable_sort    对给定区间所有元素进行稳定排序partial_sort    对给定区间所有元素部分排序partial_sort_copy    对给定区间复制并排序nth_element    找出给定区间的某个位置对应的元素is_sorted    判断一个区间是否已经排好">
+  <meta name="description" content="c++sort函数的使用总结sort类函数：函数名    功能描述  sort    对给定区间所有元素进行排序 stable_sort    对给定区间所有元素进行稳定排序 partial_sort    对给定区间所有元素部分排序 partial_sort_copy    对给定区间复制并排序 nth_element    找出给定区间的某个位置对应的元素 is_sorted    判断一个区">
 <meta name="keywords" content="魏箫的博客">
 <meta property="og:type" content="article">
 <meta property="og:title" content="sort-function">
 <meta property="og:url" content="https:&#x2F;&#x2F;weixiao0920.github.io&#x2F;2019&#x2F;12&#x2F;10&#x2F;index&#x2F;index.html">
 <meta property="og:site_name" content="weixiao blogs">
-<meta property="og:description" content="c++sort函数的使用总结sort类函数：函数名    功能描述sort    对给定区间所有元素进行排序stable_sort    对给定区间所有元素进行稳定排序partial_sort    对给定区间所有元素部分排序partial_sort_copy    对给定区间复制并排序nth_element    找出给定区间的某个位置对应的元素is_sorted    判断一个区间是否已经排好">
+<meta property="og:description" content="c++sort函数的使用总结sort类函数：函数名    功能描述  sort    对给定区间所有元素进行排序 stable_sort    对给定区间所有元素进行稳定排序 partial_sort    对给定区间所有元素部分排序 partial_sort_copy    对给定区间复制并排序 nth_element    找出给定区间的某个位置对应的元素 is_sorted    判断一个区">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-12-10T09:33:37.237Z">
+<meta property="og:updated_time" content="2019-12-10T13:19:30.015Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="weixiao blogs" type="application/atom+xml">
@@ -173,8 +173,18 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="c-sort函数的使用总结"><a href="#c-sort函数的使用总结" class="headerlink" title="c++sort函数的使用总结"></a>c++sort函数的使用总结</h1><h3 id="sort类函数："><a href="#sort类函数：" class="headerlink" title="sort类函数："></a>sort类函数：</h3><p>函数名    功能描述<br>sort    对给定区间所有元素进行排序<br>stable_sort    对给定区间所有元素进行稳定排序<br>partial_sort    对给定区间所有元素部分排序<br>partial_sort_copy    对给定区间复制并排序<br>nth_element    找出给定区间的某个位置对应的元素<br>is_sorted    判断一个区间是否已经排好序<br>partition    使得符合某个条件的元素放在前面<br>stable_partition    相对稳定的使得符合某个条件的元素放在前面<br>需要头文件<algorithm></p>
-<a id="more"></a>
+        <h1 id="c-sort函数的使用总结"><a href="#c-sort函数的使用总结" class="headerlink" title="c++sort函数的使用总结"></a>c++sort函数的使用总结</h1><h3 id="sort类函数："><a href="#sort类函数：" class="headerlink" title="sort类函数："></a>sort类函数：</h3><p>函数名    功能描述</p>
+<ul>
+<li>sort    对给定区间所有元素进行排序</li>
+<li>stable_sort    对给定区间所有元素进行稳定排序</li>
+<li>partial_sort    对给定区间所有元素部分排序</li>
+<li>partial_sort_copy    对给定区间复制并排序</li>
+<li>nth_element    找出给定区间的某个位置对应的元素</li>
+<li>is_sorted    判断一个区间是否已经排好序</li>
+<li>partition    使得符合某个条件的元素放在前面</li>
+<li>stable_partition    相对稳定的使得符合某个条件的元素放在前面<br>需要头文件 <strong><algorithm></strong><a id="more"></a>
+</li>
+</ul>
 <hr>
 <p>语法描述：sort（begin，end，cmp），cmp参数可以没有，如果没有默认非降序排序。</p>
 <p>以int为例的基本数据类型的sort使用</p>
